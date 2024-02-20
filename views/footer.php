@@ -1,6 +1,6 @@
-<div class="copyright">
+<div >
     &copy; Copyright <strong><span>Margeurita</span></strong>. All Rights Reserved
 </div>
-<div class="credits">
+<div>
      Designed by <a href="#">devs</a>
 </div>

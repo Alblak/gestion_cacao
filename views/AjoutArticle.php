@@ -79,7 +79,7 @@ if (isset($_POST["valider"])) {
                 <div class="col-lg-5">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title text-center">AJouter un Article</h4>
+                            <h4 class="card-title text-center">Ajouter un Article</h4>
                             <div class="modal modal-signin position-static d-block  py-1" tabindex="-1" role="dialog"
                                 id="modalSignin">
                                 <div class="modal-dialog" role="document">
@@ -130,7 +130,7 @@ if (isset($_POST["valider"])) {
                                                 </p>
 
                                                 <button class="w-100 mb-2 btn btn-lg rounded-5 btn-outline-primary" type="submit"
-                                                    name="valider"> Enregister</button> <br>
+                                                    name="valider"> Enregistrer</button> <br>
                                             </form>
                                         </div>
                                     </div>
@@ -201,19 +201,8 @@ if (isset($_POST["valider"])) {
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/chart.js/chart.umd.js"></script>
-    <script src="assets/vendor/echarts/echarts.min.js"></script>
-    <script src="assets/vendor/quill/quill.min.js"></script>
-    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
-    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js1/main.js"></script>
+ <!-- ======= JS script ======= -->
+            <?php include_once('scriptjs.php')?>
 
 </body>
 
