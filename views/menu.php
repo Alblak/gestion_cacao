@@ -4,7 +4,7 @@
 
     <li class="nav-heading Actions">Actions</li>
     <li class="nav-item">
-        <a class="nav-link collapsed" href="village.php">
+        <a class="nav-link collapsed" href="villages.php">
             <i class="bi bi-city"></i>
             <span>Village</span>
         </a>
@@ -21,7 +21,20 @@
             <i class="bi bi-person"></i>
             <span>Gerer Clients</span>
         </a>
-    </li><!-- End client Page Nav -->
+    </li>
+    <!-- End client Page Nav -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="achat.php">
+            <i class="bi bi-person"></i>
+            <span>les entrees</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="sortie.php">
+            <i class="bi bi-person"></i>
+            <span>les sorties</span>
+        </a>
+    </li>
 
     <li class="nav-item">
         <a class="nav-link " data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">

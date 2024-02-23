@@ -6,7 +6,13 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Etablissement Margeurita</title>
   <!-- Vendor CSS Files -->
-  <?php include("link.php"); ?>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -36,9 +42,9 @@
         <li class="dropdown">
           <a class="nav-link dropdown-toggle active btn-book-a-table text-light mb-3" href="#" data-bs-toggle="dropdown" aria-expanded="false">Se connecter</a>
           <ul class="dropdown-menu">         
-            <li><a class="dropdown-item" href="login.php?type=patron">Patron</a></li>
-            <li><a class="dropdown-item" href="login.php?type=site">Site</a></li>
-            <li><a class="dropdown-item" href="login.php?type=fournisseur">fournisseur</a></li>
+            <li><a class="dropdown-item" href="views/login.php?type=patron">Patron</a></li>
+            <li><a class="dropdown-item" href="views/login.php?type=site">Site</a></li>
+            <li><a class="dropdown-item" href="views/login.php?type=fournisseur">fournisseur</a></li>
           </ul> 
         </li> 
        </ul>  

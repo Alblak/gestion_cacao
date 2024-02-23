@@ -21,9 +21,24 @@ $site=$_SESSION['idsite'];
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
 
-        
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="#" class="logo d-flex align-items-center">
+                <img src="assets/img/menu/b1.png" width="60px" height="100%" alt="">
+                <span class="d-none d-lg-block">Margeurita</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
 
-    <?php include('header.php');?>
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+                <li class="pe-3 btn btn-outline-danger mx-2">
+                    <a class="nav-link d-flex align-items-center pe-0 " href="index.php">
+                        Deconnexion
+                    </a>
+                </li><!-- End Profile Nav -->
+
+            </ul>
+        </nav>
 
     </header><!-- End Header -->
 
@@ -54,8 +69,7 @@ $site=$_SESSION['idsite'];
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-    <?php include('footer.php'); ?>
-    </footer><!-- End Footer -->
+        <?php include('footer.php'); ?>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
