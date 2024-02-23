@@ -84,22 +84,15 @@ $type=$_GET['type'];
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Connexion</title>
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+   <?php include('link.php')?>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <div class="modal modal-signin position-static d-block  py-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal modal-signin position-static d-block   py-5" tabindex="-1" role="dialog" id="modalSignin">
         <div class="modal-dialog" role="document">
-            <div class="modal-content rounded-5 shadow">
+            <div class="modal-content  shadow p-3 ">
                 <div class="modal-header border-bottom-0">
                     <h3></h3>          
                    
@@ -107,13 +100,13 @@ $type=$_GET['type'];
                         <button type="button" class="btn-close fw-bold" data-bs-dismiss="modal" aria-label="Close"></button>
                     </a>
                 </div>
-                <div class="modal-body p-5 pt-0">
+                <div class="modal-body p-5 pt-0 ">
                     <div class="pb-2">                        
                         
                         <h3 class="card-title text-center couleur1 pb-0 fs-4">Connectez-vous</h3>
                     </div>
             
-                    <form class="row g-3 needs-validation" method="POST" novalidate>
+                    <form class="row g-3 needs-validation " method="POST" novalidate>
             
                         <div class="col-12">
                             <label for="name" class="form-label">Votre nom</label>
